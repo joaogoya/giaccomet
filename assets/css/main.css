@@ -1,0 +1,306 @@
+/*header*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main_menu_area .header-social-right ul:before,
+.main_menu_area .logo:before {
+  content: none;
+}
+
+/********************************************/
+/************** blue bar ********************/
+/********************************************/
+#blueBar {
+  background-color: #22354b;
+  color: #b0b8c5;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  font-size: 9px;
+}
+
+#blueBar .container div {
+  float: left;
+}
+
+/*blue bar phones area*/
+#blueBar .phones span {
+  display: block;
+  width: 10px;
+  height: 12px;
+  float: left;
+  margin: 15px 5px 0px 30px;
+}
+
+#blueBar .phones div:first-child span {
+  margin-left: 0px;
+}
+
+#blueBar .phones span.phone {
+  background-image: url("./../images/icons/phone_icon.jpg");
+}
+
+#blueBar .phones span.mail {
+  background-image: url("./../images/icons/mail_icon.jpg");
+}
+
+#blueBar .phones span.clock {
+  background-image: url("./../images/icons/colck_icon.jpg");
+}
+
+/*blue bar social area*/
+#blueBar .social {
+  margin-left: 45px;
+}
+
+#blueBar .social a {
+  display: block;
+  width: 7px;
+  height: 8px;
+  float: left;
+  margin: 16px 3px;
+  background-size: 100%;
+}
+
+#blueBar .social a.facebook {
+  background-image: url("./../images/icons/facebook_icon.jpg");
+}
+
+#blueBar .social a.instagram {
+  background-image: url("./../images/icons/instagram_icon.jpg");
+}
+
+#blueBar .social a.twitter {
+  background-image: url("./../images/icons/twitter_icon.jpg");
+}
+
+#blueBar .social a.youtube {
+  background-image: url("./../images/icons/youtube_iocn.jpg");
+}
+
+/*blue bar clime area*/
+#blueBar .clime {
+  width: 130px;
+  height: 40px;
+  margin-left: 35px;
+}
+
+#blueBar .clime div {
+  height: 40px;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  text-align: right;
+  font-size: 9px;
+  width: 26px;
+}
+
+#blueBar .clime div.thermometer {
+  width: 37px;
+  background-position: 0px 12px;
+  background-image: url(./../images/icons/clime_icon.jpg);
+  font-size: 15px;
+}
+
+#blueBar .clime div.max {
+  background-position: 0px 12px;
+  background-image: url(./../images/icons/arrowup_icon.jpg);
+}
+
+#blueBar .clime div.min {
+  background-position: 0px 12px;
+  background-image: url(./../images/icons/arrowdown_icon.jpg);
+}
+
+/*blue bar clime area*/
+#blueBar .selectContainer {
+  width: 130px;
+  height: 40px;
+  margin-left: 35px;
+}
+
+#blueBar .selectContainer select {
+  height: 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 100px;
+  line-height: 20px;
+  padding-left: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  margin-right: 2rem;
+  background-position: 100% 0px;
+}
+
+/*blue bar flags area*/
+#blueBar .flags {
+  width: 100px;
+  height: 40px;
+  background-size: 100%;
+}
+
+#blueBar .flags a {
+  display: block;
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin: 11px 8px;
+  background-size: 100%;
+}
+
+#blueBar .flags a.br {
+  background-image: url(./../images/icons/br_icon.jpg);
+}
+
+#blueBar .flags a.en {
+  background-image: url(./../images/icons/en_icon.jpg);
+}
+
+#blueBar .flags a.es {
+  background-image: url(./../images/icons/es_icon.jpg);
+}
+/* end blue bar */
+
+/********************************************/
+/***************** Menu *********************/
+/********************************************/
+.main_menu_area {
+  background-image: linear-gradient(top #fff 80%, #dfe5ef 20%);
+  background-image: -o-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -moz-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: linear-gradient(bottom, #fff 24%, #dfe5ef 62%);
+}
+
+.main_menu_area .navbar-default .navbar-nav > li > a {
+  color: #22354b;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.main_menu_area nav.navbar.navbar-default .social_icon_flex {
+  width: 128px;
+  font-size: 14px;
+}
+
+.header-social-right a:link,
+.header-social-right a:visited {
+  background: red;
+  text-align: center;
+  border-radius: 25px;
+  line-height: 35px;
+  color: #fff;
+}
+
+/********************************************/
+/***************** Baner ********************/
+/********************************************/
+.header_slider_bg{
+    background-image: url(./../images/baner.jpg);
+    background-size: cover;
+    height: 550px;
+}
+
+.header_slider_bg::before{
+    content: none;
+}
+
+.txt-container{
+    position: absolute;
+    bottom: 0px;
+}
+
+.header_slide_text h1 {
+    font-size: 36px;
+    font-weight: 400;
+    padding: 9px 110px 44px 0;
+    color: #fff;
+    padding-bottom: 0px;
+}
+
+.header_slide_text p {
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.header_slide_text a.btn-orange {
+    margin-bottom: 32px;
+    padding: 2px 49px;
+    background: #c49b60;
+    border-radius: 25px;
+    font-weight: 400;
+}
+
+.header_slide_text a.btn-orange:hover {
+    color: #22354b;
+}
+
+
+@media (min-width: 1px) {
+  #blueBar {
+    display: none;
+  }
+  .main_menu_area nav.navbar.navbar-default .navbar_flex {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  #blueBar {
+    display: none;
+  }
+  .main_menu_area nav.navbar.navbar-default .navbar_flex {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #blueBar {
+    display: none;
+  }
+  .main_menu_area nav.navbar.navbar-default .navbar_flex {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #blueBar {
+    display: none;
+  }
+  .main_menu_area nav.navbar.navbar-default .navbar_flex {
+    width: 65%;
+  }
+  .main_menu_area nav.navbar.navbar-default .social_icon_flex {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #blueBar {
+    display: block;
+  }
+  .main_menu_area nav.navbar.navbar-default .navbar_flex {
+    width: 65%;
+  }
+  .main_menu_area nav.navbar.navbar-default .social_icon_flex {
+    width: 250px;
+  }
+  .header_slider_bg{
+      height: 850px;
+  }
+  .txt-container {
+    bottom: 40px;
+    left: 40px;
+  }
+
+  .txt-container h1{ 
+      font-size: 50px;
+    }
+}
