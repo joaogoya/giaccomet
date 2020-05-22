@@ -1,5 +1,5 @@
 /*header*/
-body *{
+body * {
   font-family: "Poppins", sans-serif;
 }
 
@@ -9,21 +9,21 @@ body *{
 }
 /*SECTION TITLE*/
 
-.hero-section-title h4{
-    color: #c49b60;
+.hero-section-title h4 {
+  color: #c49b60;
 }
 
-.hero-section-title h1{
-    color:#22354b;
+.hero-section-title h1 {
+  color: #22354b;
 }
 
-.hero-section-title .titleDecoration{
-    content: '';
-    background: red;
-    width: 50px;
-    height: 7px;
-    z-index: 5;
-    margin: auto;
+.hero-section-title .titleDecoration {
+  content: "";
+  background: red;
+  width: 50px;
+  height: 7px;
+  z-index: 5;
+  margin: auto;
 }
 
 /********************************************/
@@ -219,172 +219,222 @@ body *{
 /********************************************/
 /***************** Baner ********************/
 /********************************************/
-.header_slider_bg{
-    background-image: url(./../images/baner.jpg);
-    background-size: cover;
-    height: 550px;
+.header_slider_bg {
+  background-image: url(./../images/baner.jpg);
+  background-size: cover;
+  height: 550px;
 }
 
-.header_slider_bg::before{
-    content: none;
+.header_slider_bg::before {
+  content: none;
 }
 
-.txt-container{
-    position: absolute;
-    bottom: 0px;
+.txt-container {
+  position: absolute;
+  bottom: 0px;
 }
 
 .header_slide_text h1 {
-    font-size: 36px;
-    font-weight: 400;
-    padding: 9px 110px 44px 0;
-    color: #fff;
-    padding-bottom: 0px;
+  font-size: 36px;
+  font-weight: 400;
+  padding: 9px 110px 44px 0;
+  color: #fff;
+  padding-bottom: 0px;
 }
 
 .header_slide_text p {
-    color: #fff;
-    font-size: 18px;
-    margin: 20px 0px;
+  color: #fff;
+  font-size: 18px;
+  margin: 20px 0px;
 }
 
 .header_slide_text a.btn-orange {
-    margin-bottom: 32px;
-    padding: 2px 49px;
-    background: #c49b60;
-    border-radius: 25px;
-    font-weight: 400;
+  margin-bottom: 32px;
+  padding: 2px 49px;
+  background: #c49b60;
+  border-radius: 25px;
+  font-weight: 400;
 }
 
 .header_slide_text a.btn-orange:hover {
-    color: #22354b;
+  color: #22354b;
 }
-
 
 /********************************************/
 /************* products area ****************/
 /********************************************/
 
-.slider_service_area{
-    background-image: linear-gradient(top #fff 80%, #dfe5ef 20%);
-    background-image: -o-linear-gradient(top, #fff 24%, #dfe5ef 62%);
-    background-image: -moz-linear-gradient(top, #fff 24%, #dfe5ef 62%);
-    background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
-    background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
-    background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
-}     
-
-.showcase{
-    width: 100%;
+.slider_service_area {
+  background-image: linear-gradient(top #fff 80%, #dfe5ef 20%);
+  background-image: -o-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -moz-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
 }
 
-.showcase img{
-    width: 100%;
-    height: auto;
+.showcase {
+  width: 100%;
 }
 
-.showcase .content{
-    width: 100%;
-    height: auto;
-    padding: 25px;
-    background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-    background-image: -o-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-    background-image: -moz-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-    background-image: -webkit-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-    background-image: -ms-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-    background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+.showcase img {
+  width: 100%;
+  height: auto;
 }
 
-.showcase h4{
-    margin-bottom: 25px;
-    color:#22354b;
+.showcase .content {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -o-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -moz-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -webkit-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -ms-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
 }
 
-.showcase p{
-    color:#22354b;
+.showcase h4 {
+  margin-bottom: 25px;
+  color: #22354b;
+}
+
+.showcase p {
+  color: #22354b;
 }
 
 .showcase a:link,
-.showcase a:visited{
-    display: block;
-    display: block;
-    background-color:#c49b60 ;
-    width: 119px;
-    border-radius: 25px;
-    margin: 25px auto;
-    color: #fff;
+.showcase a:visited {
+  display: block;
+  display: block;
+  background-color: #c49b60;
+  width: 119px;
+  border-radius: 25px;
+  margin: 25px auto;
+  color: #fff;
 }
 
-.showcase a:hover{
-    color: #22354b;
+.showcase a:hover {
+  color: #22354b;
 }
-
 
 /********************************************/
 /*************** about area *****************/
 /********************************************/
-.about_area.gray_bg{
-    background-image: url(./../images/blueBanner.jpg);
-    background-size: cover;
+.about_area.gray_bg {
+  background-image: url(./../images/blueBanner.jpg);
+  background-size: cover;
 }
 
-.about_area.gray_bg::before{
-    background-image: url(./../images/houseBanner.jpg);
-    background-size: cover;
+.about_area.gray_bg::before {
+  background-image: url(./../images/houseBanner.jpg);
+  background-size: cover;
 }
 
 .about_details h4,
 .about_details h1,
 .about_details p,
 .about_details a:link,
-.about_details a:visited{
-    color: #fff;
+.about_details a:visited {
+  color: #fff;
+}
+
+.about_details h1 {
+  font-weight: 300;
+  font-size: 48px;
 }
 
 .about_details a:link,
-.about_details a:visited{
-    color: #fff;
-    background: #22354b;
-    padding: 12px 25px;
-    border-radius: 25px;
+.about_details a:visited {
+  color: #fff;
+  background: #22354b;
+  padding: 12px 25px;
+  border-radius: 25px;
 }
 
-.about_details a:hover{
-    color: lightgray;
+.about_details a:hover {
+  color: lightgray;
 }
-
 
 /********************************************/
 /*********** numbers bar area ***************/
 /********************************************/
 
-.testimonial_area{
-    background-color: #22354b;
-    min-height: 35px;
-    width: 100%;
-    color: #fff;
-    padding: 55px 0px;
+.testimonial_area {
+  background-color: #22354b;
+  min-height: 35px;
+  width: 100%;
+  color: #fff;
+  padding: 55px 0px;
 }
-.testimonial_area img{
-    width: 55px;
-    height: 55px;
+.testimonial_area img {
+  width: 55px;
+  height: 55px;
 }
 
 .numberContainer {
-    text-align: center;
-    margin-bottom: 35px;
-    min-height: 170px;
+  text-align: center;
+  margin-bottom: 35px;
+  min-height: 170px;
 }
 
-.numberContainer .number{
-    color: #2d9abf;
-    font-size: 28px;
-    font-weight: 600;
-    margin-top: 16px;
-    display: block;
+.numberContainer .number {
+  color: #2d9abf;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 16px;
+  display: block;
+}
+
+/********************************************/
+/************* map area area ****************/
+/********************************************/
+.why_choose_us_area {
+  background: url(./../images/home_map_bg.jpg) center center fixed no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  text-align: left;
+}
+
+.why_choose_us_area::before {
+  content: none;
+}
+
+.why_choose_us_area img {
+  width: 100%;
+  height: auto;
+}
+
+.map_details h4,
+.map_details h1,
+.map_details p,
+.map_details a:link,
+.map_details a:visited {
+  color: #fff !important;
+}
+
+.map_details h1 {
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.map_details a:link,
+.map_details a:visited {
+  color: #fff !important;
+  background: #c49b60 !important;
+  padding: 12px 25px !important;
+  border-radius: 25px !important;
+}
+
+.map_details a:hover {
+  color: lightgray;
 }
 
 
+/********************************************/
+/************* media queries ****************/
+/********************************************/
 
 @media (min-width: 1px) {
   #blueBar {
@@ -435,21 +485,28 @@ body *{
   .main_menu_area nav.navbar.navbar-default .social_icon_flex {
     width: 250px;
   }
-  .header_slider_bg{
-      height: 850px;
+  .header_slider_bg {
+    height: 850px;
   }
   .txt-container {
     bottom: 40px;
     left: 40px;
   }
+  .txt-container h1 {
+    font-size: 50px;
+  }
+  .showcase p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .numberContainer {
+    margin-bottom: 0px;
+  }
 
-  .txt-container h1{ 
-      font-size: 50px;
-    }
-    .showcase p{
-        font-size: 16px;
-        line-height: 24px;
-    }.numberContainer {
-        margin-bottom: 0px;
-    }
+  .map_details {
+    margin-top: 150px;
+  }
+  .map_details .hero-section-title{
+      margin-bottom: 35px;
+  }
 }
