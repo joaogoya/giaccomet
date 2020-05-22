@@ -272,8 +272,7 @@ body *{
     background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
     background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
     background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
-}
-     
+}     
 
 .showcase{
     width: 100%;
@@ -295,6 +294,7 @@ body *{
     background-image: -ms-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
     background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
 }
+
 .showcase h4{
     margin-bottom: 25px;
     color:#22354b;
@@ -320,7 +320,9 @@ body *{
 }
 
 
-
+/********************************************/
+/*************** about area *****************/
+/********************************************/
 .about_area.gray_bg{
     background-image: url(./../images/blueBanner.jpg);
     background-size: cover;
@@ -350,6 +352,38 @@ body *{
 .about_details a:hover{
     color: lightgray;
 }
+
+
+/********************************************/
+/*********** numbers bar area ***************/
+/********************************************/
+
+.testimonial_area{
+    background-color: #22354b;
+    min-height: 35px;
+    width: 100%;
+    color: #fff;
+    padding: 55px 0px;
+}
+.testimonial_area img{
+    width: 55px;
+    height: 55px;
+}
+
+.numberContainer {
+    text-align: center;
+    margin-bottom: 35px;
+    min-height: 170px;
+}
+
+.numberContainer .number{
+    color: #2d9abf;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 16px;
+    display: block;
+}
+
 
 
 @media (min-width: 1px) {
@@ -415,5 +449,7 @@ body *{
     .showcase p{
         font-size: 16px;
         line-height: 24px;
+    }.numberContainer {
+        margin-bottom: 0px;
     }
 }

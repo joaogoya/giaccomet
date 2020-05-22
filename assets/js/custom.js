@@ -109,7 +109,7 @@
         $('.header_slider_area').owlCarousel({
             items: 1,
             autoHeight: true,
-            autoplay: false,
+            autoplay: true,
             loop: true,
             nav: false,
             dots: true,
