@@ -1,5 +1,5 @@
 /*header*/
-body {
+body *{
   font-family: "Poppins", sans-serif;
 }
 
@@ -265,6 +265,16 @@ body {
 /************* products area ****************/
 /********************************************/
 
+.slider_service_area{
+    background-image: linear-gradient(top #fff 80%, #dfe5ef 20%);
+    background-image: -o-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+    background-image: -moz-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+    background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+    background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+    background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
+}
+     
+
 .showcase{
     width: 100%;
 }
@@ -311,8 +321,35 @@ body {
 
 
 
+.about_area.gray_bg{
+    background-image: url(./../images/blueBanner.jpg);
+    background-size: cover;
+}
 
+.about_area.gray_bg::before{
+    background-image: url(./../images/houseBanner.jpg);
+    background-size: cover;
+}
 
+.about_details h4,
+.about_details h1,
+.about_details p,
+.about_details a:link,
+.about_details a:visited{
+    color: #fff;
+}
+
+.about_details a:link,
+.about_details a:visited{
+    color: #fff;
+    background: #22354b;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+.about_details a:hover{
+    color: lightgray;
+}
 
 
 @media (min-width: 1px) {
