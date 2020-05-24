@@ -661,11 +661,13 @@ body * {
   color: #c49b60;
 }
 
+/* barra azul om o titulo */
 .bannerProd{
   width: 100%;
   height: 100%;
 }
 
+/*slider*/
 .prouto-detalhe .slider-prod{
   padding: 0px;
   position: relative;
@@ -677,26 +679,20 @@ body * {
     top: 50%;
 }
 
-
-.slider-prod .owl-carousel .owl-nav button.owl-next, 
-.slider-prod .owl-carousel .owl-nav button.owl-prev{
-  color: inherit;
-  border: none;
-  padding: 0!important;
-  font: inherit;
-}
-
 .slider-prod .owl-nav button{
   width: 65px;
   height: 65px;
-  background: #0002 !important;
+  background: gray !important;
+  opacity: 0.6;
+  border: none;
+  padding: 0!important;
+  font: inherit;
   display: inline-block;
   border-radius: 50%;
   text-align: center;
   position: absolute;
   left: 60px;
 }
-
 
 .slider-prod .owl-nav button i {
   font-size: 24px;
@@ -705,7 +701,6 @@ body * {
   width: 100%;
   height: 100%;
   line-height: 65px;
-  
 }
 
 .prouto-detalhe .owl-carousel .owl-nav button.owl-prev{
@@ -713,10 +708,73 @@ body * {
 }
 
 .prouto-detalhe .owl-carousel .owl-nav button.owl-next{
-  left: 94%;
+  left: 90%;
 }
 
+/*formulario*/
+.container-form{
+  background: #2d9abf;
+  border-radius: 5xp;
+}
+.container-form h3,
+.prouto-detalhe .service_widgets h3{
+  color: #fff;
+  padding: 35px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
 
+.container-form .submit{
+  background-color: #22354b;
+  margin: 35px 0px 10px 0px;
+  border-radius: 35px;
+}
+
+.prouto-detalhe .prod-content h3{
+text-align: left;
+    margin-bottom: 25px;
+}
+
+.prouto-detalhe .prod-content p{
+  color: #969da9;
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 17px;
+}
+.prouto-detalhe  .service_widgets{
+  margin-top: 72px;
+    padding: 30px;
+    background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+    background-image: -o-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+    background-image: -moz-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+    background-image: -webkit-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+    background-image: -ms-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+    background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+}
+
+.prouto-detalhe .service_widgets ul li{
+  border-bottom: 2px solid #dae0ea;
+}
+
+.prouto-detalhe .service_widgets ul li a i{
+  float: left;
+  color: #2d9abf;
+}
+
+.prouto-detalhe .service_widgets ul li a{
+  text-align: left;
+  color: #22354b;
+}
+
+.prouto-detalhe .service_widgets h3{
+  color: #22354b;
+  padding: 0px;
+}
+.prouto-detalhe .service_widgets img{
+  width: 100%;
+}
 
 /********************************************/
 /************* media queries ****************/
