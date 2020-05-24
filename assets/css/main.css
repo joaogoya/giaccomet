@@ -546,6 +546,84 @@ body * {
 }
 
 
+/********************************************/
+/***************** Footer *******************/
+/********************************************/
+
+.footer_section{
+  background-image: url(./../images/footer_bg.jpg);
+  background-size: cover;
+  background-color: none;
+  border-top:none
+}
+.footer_box.service{
+  padding: 0px;
+}
+.footer_box h3{
+  color: #c49b60;
+}
+
+.footer_box h3::before{
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: 16px;
+  width: 47px;
+  height: 2px;
+  background-color: #c49b60;
+}
+
+.footer_box span {
+  display: block;
+  width: 10px;
+  height: 12px;
+  float: left;
+  margin: 9px 10px 0px 0px;
+}
+
+.footer_box  span.phone {
+  background-image: url("./../images/icons/phone_icon.jpg");
+}
+
+.footer_box  span.mail {
+  background-image: url("./../images/icons/mail_icon.jpg");
+}
+
+.footer_box  span.clock {
+  background-image: url("./../images/icons/colck_icon.jpg");
+}
+
+.footer_box ul li a:hover{
+  color: #c49b60;
+}
+
+.footer_box ul li a.orcamento{
+  background: red;
+  text-align: center;
+  border-radius: 25px;
+  line-height: 35px;
+  color: #fff;
+  width: 150px;
+  margin-top: 30px;
+}
+
+.copyright_area{
+  background-color: #22354b;
+}
+
+.copyright_area .copyright_left .social_media li a{
+  background: none;
+  color: #c49b60;
+}
+
+.copyright_area .copyright_left .social_media li a:hover{
+  background: #c49b60;
+  color: #fff;
+}
+
+.copyright_area .copyright_left .social_media li a:before{
+  background-color: #c49b60;
+}
 
 
 /********************************************/
