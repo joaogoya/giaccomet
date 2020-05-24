@@ -69,6 +69,10 @@ body * {
     color: #22354b;
   }
 
+  .clear{
+    clear: both;
+  }
+
 /********************************************/
 /************** blue bar ********************/
 /********************************************/
@@ -466,6 +470,84 @@ body * {
     margin-top: 20px;
 }
 
+
+/********************************************/
+/************* testimonials *****************/
+/********************************************/
+
+.testimonials_area .owlcontainer{
+  width: 75%;
+  margin: auto;
+}
+
+.testimonials_area{
+  background-image: linear-gradient(top #fff 80%, #dfe5ef 20%);
+  background-image: -o-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -moz-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
+
+}
+
+.testimonials_area .hv2_slider_bg {
+  position: relative;
+  z-index: 1;
+  padding: 0px;
+  min-height: 112px;
+  width: 90%;
+  margin: auto;
+  background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -o-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -moz-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -webkit-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -ms-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.testimonials_area .hv2_slider_bg::before{
+  content: none;
+}
+
+.testimonials_area .container-fluids{
+  background-color: yellowgreen;
+}
+
+.testimonials_area .hv2_slider_bg img{
+  width: 100% !important;
+}
+
+.testimonials_area .hv2_slider_bg .content{
+  width: 100%;
+  margin-right: 5%;
+  text-align: left;
+}
+
+.testimonials_area .hv2_slider_bg .content h4{
+  margin-bottom: 5px;
+}
+
+.testimonials_area .hv2_slider_bg .content h6{
+  color: #c49b60;
+  margin-bottom: 25px;
+}
+
+.testimonials_area .hv2_slider_bg .content p{
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.testimonials_area .hv2_slider_area .owl-nav{
+  top: 28%;
+  width: 129%;
+  left: -14%;
+}
+
+
+
+
 /********************************************/
 /************* media queries ****************/
 /********************************************/
@@ -494,6 +576,16 @@ body * {
   }
   .main_menu_area nav.navbar.navbar-default .navbar_flex {
     width: 100%;
+  }
+  .testimonials_area .hv2_slider_bg img{
+    float: left;
+    width: 30% !important;
+  }
+  
+  .testimonials_area .hv2_slider_bg .content{
+    float: right;
+    width: 60%;
+    margin-right: 5%;
   }
 }
 

@@ -123,13 +123,23 @@
         $('.hv2_slider_area').owlCarousel({
             items: 1,
             autoHeight: true,
-            autoplay: true,
+            autoplay: false,
             loop: true,
             nav: true,
             navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>", "<i class='fa fa-angle-right' aria-hidden='true'></i>"],
-            dots: false,
-            animateIn: 'fadeIn',
-            animateOut: 'fadeOut',
+            dots: true,
+            animateIn: 'slide',
+            animateOut: 'slide',
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                992:{
+                    items:2,
+                    nav:true
+                }
+            }
         });
 
 
