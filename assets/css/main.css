@@ -626,6 +626,98 @@ body * {
 }
 
 
+
+/******************************************************************************************************/
+/******************************************* Internas *************************************************/
+/******************************************************************************************************/
+
+
+/********************************************/
+/************* Prod Detalhe *****************/
+/********************************************/
+.breadcrumb_area{
+  background-image: url(./../images/banner-internas.jpg);
+  background-size: cover;
+  border-bottom: 10px solid #2d9abf;
+}
+
+.breadcrumb_area .hero-section-title h1{
+  color: #fff;;
+}
+
+.breadcrumb-item{
+  color: #c49b60 !important;
+}
+
+.breadcrumb-item a{
+  color: #c49b60;
+}
+
+ .breadcrumb-item a:hover{
+  color:#fff !important;
+}
+
+.breadcrumb > li + li:before{
+  color: #c49b60;
+}
+
+.bannerProd{
+  width: 100%;
+  height: 100%;
+}
+
+.prouto-detalhe .slider-prod{
+  padding: 0px;
+  position: relative;
+}
+
+.prouto-detalhe .owl-carousel .owl-nav{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+
+
+.slider-prod .owl-carousel .owl-nav button.owl-next, 
+.slider-prod .owl-carousel .owl-nav button.owl-prev{
+  color: inherit;
+  border: none;
+  padding: 0!important;
+  font: inherit;
+}
+
+.slider-prod .owl-nav button{
+  width: 65px;
+  height: 65px;
+  background: #0002 !important;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  left: 60px;
+}
+
+
+.slider-prod .owl-nav button i {
+  font-size: 24px;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 65px;
+  
+}
+
+.prouto-detalhe .owl-carousel .owl-nav button.owl-prev{
+  left: 0px;
+}
+
+.prouto-detalhe .owl-carousel .owl-nav button.owl-next{
+  left: 94%;
+}
+
+
+
 /********************************************/
 /************* media queries ****************/
 /********************************************/

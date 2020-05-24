@@ -108,11 +108,8 @@
          * =====================================***/
         $('.header_slider_area').owlCarousel({
             items: 1,
-            autoHeight: true,
             autoplay: true,
-            loop: true,
-            nav: false,
-            dots: true,
+            nav: true,
             animateIn: 'fadeIn',
             animateOut: 'fadeOut',
         });
@@ -142,6 +139,19 @@
             }
         });
 
+        /*** =====================================
+         * Produto detalhe
+         * =====================================***/
+        $('.slider-prod').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            items: 1,
+            autoHeight: true,
+            navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>", "<i class='fa fa-angle-right' aria-hidden='true'></i>"],
+        })
+
+        //document.getElementsByClassName('slider-prod ');
 
         /*** =====================================
          * Custom Owl-carousel dots and testimonial
