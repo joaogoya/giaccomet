@@ -776,6 +776,47 @@ text-align: left;
   width: 100%;
 }
 
+.prouto-detalhe .related{
+  text-align: left;
+    margin: 0px 0px 15px 20px;
+}
+
+
+/********************************************/
+/************* Istitucional *****************/
+/********************************************/
+.institucional .about_area {
+  background-image: none;
+  color: #22354b !important;
+  background: #fff;
+  margin-top: 150px;
+}
+
+.institucional .about_area h1{
+  color: #22354b;
+}
+
+.institucional .about_area p{
+  color: #22354b;
+}
+
+.institucional .about_area h4{
+  color: #c49b60
+}
+
+.institucional .about_details{
+  padding: 0px 0 115px 0;
+}
+
+.institucional .instituional-icon{
+  width: 25%;
+  margin: 40px 0px 60px 0px;
+}
+
+.institucional .blog_area h4{
+  color: #22354b;
+}
+
 /********************************************/
 /************* media queries ****************/
 /********************************************/
