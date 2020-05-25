@@ -817,6 +817,33 @@ text-align: left;
   color: #22354b;
 }
 
+
+/********************************************/
+/*********** Produto Listagem ***************/
+/********************************************/
+
+.subCat-title{
+  margin: 20px;
+  text-align: left;
+}
+
+.produto-listagem .slider_service_area{
+  background: none;
+}
+
+.produto-listagem .row{
+  background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -o-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -moz-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -webkit-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -ms-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+}
+
+
+
+
+
 /********************************************/
 /************* media queries ****************/
 /********************************************/
