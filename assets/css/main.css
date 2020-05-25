@@ -26,52 +26,52 @@ body * {
 }
 
 .showcase {
-    width: 100%;
-  }
-  
-  .showcase img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .showcase .content {
-    width: 100%;
-    height: auto;
-    padding: 25px;
-    background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-    background-image: -o-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-    background-image: -moz-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-    background-image: -webkit-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-    background-image: -ms-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-    background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
-  }
-  
-  .showcase h4 {
-    margin-bottom: 25px;
-    color: #22354b;
-  }
-  
-  .showcase p {
-    color: #22354b;
-  }
-  
-  .showcase a:link,
-  .showcase a:visited {
-    display: block;
-    background-color: #c49b60;
-    width: 119px;
-    border-radius: 25px;
-    margin: 25px auto;
-    color: #fff;
-  }
-  
-  .showcase a:hover {
-    color: #22354b;
-  }
+  width: 100%;
+}
 
-  .clear{
-    clear: both;
-  }
+.showcase img {
+  width: 100%;
+  height: auto;
+}
+
+.showcase .content {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -o-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -moz-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -webkit-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: -ms-linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+  background-image: linear-gradient(bottom, #fff 45%, #dfe5ef 80%);
+}
+
+.showcase h4 {
+  margin-bottom: 25px;
+  color: #22354b;
+}
+
+.showcase p {
+  color: #22354b;
+}
+
+.showcase a:link,
+.showcase a:visited {
+  display: block;
+  background-color: #c49b60;
+  width: 119px;
+  border-radius: 25px;
+  margin: 25px auto;
+  color: #fff;
+}
+
+.showcase a:hover {
+  color: #22354b;
+}
+
+.clear {
+  clear: both;
+}
 
 /********************************************/
 /************** blue bar ********************/
@@ -320,7 +320,6 @@ body * {
   background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
 }
 
-
 /********************************************/
 /*************** about area *****************/
 /********************************************/
@@ -434,60 +433,57 @@ body * {
   color: lightgray;
 }
 
-
 /********************************************/
 /****************** blog ********************/
 /********************************************/
-.blog_area{
-    background-image: linear-gradient(top #fff 80%, #dfe5ef 20%);
-    background-image: -o-linear-gradient(top, #fff 24%, #dfe5ef 62%);
-    background-image: -moz-linear-gradient(top, #fff 24%, #dfe5ef 62%);
-    background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
-    background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
-    background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
-}
-
-.blog_area h4{
-    color: #c49b60;
-}
-
-.blog_area p{
-    color:#22354b;
-}
-
-.blog_area .date{
-    background-color: #22354b;
-    width: 119px;
-    border-radius: 25px;
-    margin: -17px auto 45px -60px;
-    color: #fff;
-    z-index: 5;
-    position: absolute;
-    left: 50%;
-}
-
-.blog_area .content{
-    margin-top: 20px;
-}
-
-
-/********************************************/
-/************* testimonials *****************/
-/********************************************/
-
-.testimonials_area .owlcontainer{
-  width: 75%;
-  margin: auto;
-}
-
-.testimonials_area{
+.blog_area {
   background-image: linear-gradient(top #fff 80%, #dfe5ef 20%);
   background-image: -o-linear-gradient(top, #fff 24%, #dfe5ef 62%);
   background-image: -moz-linear-gradient(top, #fff 24%, #dfe5ef 62%);
   background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
   background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
   background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
+}
 
+.blog_area h4 {
+  color: #c49b60;
+}
+
+.blog_area p {
+  color: #22354b;
+}
+
+.blog_area .date {
+  background-color: #22354b;
+  width: 119px;
+  border-radius: 25px;
+  margin: -17px auto 45px -60px;
+  color: #fff;
+  z-index: 5;
+  position: absolute;
+  left: 50%;
+}
+
+.blog_area .content {
+  margin-top: 20px;
+}
+
+/********************************************/
+/************* testimonials *****************/
+/********************************************/
+
+.testimonials_area .owlcontainer {
+  width: 75%;
+  margin: auto;
+}
+
+.testimonials_area {
+  background-image: linear-gradient(top #fff 80%, #dfe5ef 20%);
+  background-image: -o-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -moz-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
 }
 
 .testimonials_area .hv2_slider_bg {
@@ -507,64 +503,63 @@ body * {
   line-height: 13px;
 }
 
-.testimonials_area .hv2_slider_bg::before{
+.testimonials_area .hv2_slider_bg::before {
   content: none;
 }
 
-.testimonials_area .container-fluids{
+.testimonials_area .container-fluids {
   background-color: yellowgreen;
 }
 
-.testimonials_area .hv2_slider_bg img{
+.testimonials_area .hv2_slider_bg img {
   width: 100% !important;
 }
 
-.testimonials_area .hv2_slider_bg .content{
+.testimonials_area .hv2_slider_bg .content {
   width: 100%;
   margin-right: 5%;
   text-align: left;
 }
 
-.testimonials_area .hv2_slider_bg .content h4{
+.testimonials_area .hv2_slider_bg .content h4 {
   margin-bottom: 5px;
 }
 
-.testimonials_area .hv2_slider_bg .content h6{
+.testimonials_area .hv2_slider_bg .content h6 {
   color: #c49b60;
   margin-bottom: 25px;
 }
 
-.testimonials_area .hv2_slider_bg .content p{
+.testimonials_area .hv2_slider_bg .content p {
   font-size: 14px;
   line-height: 18px;
 }
 
-.testimonials_area .hv2_slider_area .owl-nav{
+.testimonials_area .hv2_slider_area .owl-nav {
   top: 28%;
   width: 129%;
   left: -14%;
 }
 
-
 /********************************************/
 /***************** Footer *******************/
 /********************************************/
 
-.footer_section{
+.footer_section {
   background-image: url(./../images/footer_bg.jpg);
   background-size: cover;
   background-color: none;
-  border-top:none
+  border-top: none;
 }
-.footer_box.service{
+.footer_box.service {
   padding: 0px;
 }
-.footer_box h3{
+.footer_box h3 {
   color: #c49b60;
 }
 
-.footer_box h3::before{
-  content: '';
+.footer_box h3::before {
+  content: "";
   position: absolute;
   top: 35px;
   left: 16px;
@@ -581,23 +576,23 @@ body * {
   margin: 9px 10px 0px 0px;
 }
 
-.footer_box  span.phone {
+.footer_box span.phone {
   background-image: url("./../images/icons/phone_icon.jpg");
 }
 
-.footer_box  span.mail {
+.footer_box span.mail {
   background-image: url("./../images/icons/mail_icon.jpg");
 }
 
-.footer_box  span.clock {
+.footer_box span.clock {
   background-image: url("./../images/icons/colck_icon.jpg");
 }
 
-.footer_box ul li a:hover{
+.footer_box ul li a:hover {
   color: #c49b60;
 }
 
-.footer_box ul li a.orcamento{
+.footer_box ul li a.orcamento {
   background: red;
   text-align: center;
   border-radius: 25px;
@@ -607,85 +602,82 @@ body * {
   margin-top: 30px;
 }
 
-.copyright_area{
+.copyright_area {
   background-color: #22354b;
 }
 
-.copyright_area .copyright_left .social_media li a{
+.copyright_area .copyright_left .social_media li a {
   background: none;
   color: #c49b60;
 }
 
-.copyright_area .copyright_left .social_media li a:hover{
+.copyright_area .copyright_left .social_media li a:hover {
   background: #c49b60;
   color: #fff;
 }
 
-.copyright_area .copyright_left .social_media li a:before{
+.copyright_area .copyright_left .social_media li a:before {
   background-color: #c49b60;
 }
-
-
 
 /******************************************************************************************************/
 /******************************************* Internas *************************************************/
 /******************************************************************************************************/
 
-
 /********************************************/
 /************* Prod Detalhe *****************/
 /********************************************/
-.breadcrumb_area{
+.breadcrumb_area {
   background-image: url(./../images/banner-internas.jpg);
   background-size: cover;
   border-bottom: 10px solid #2d9abf;
 }
 
-.breadcrumb_area .hero-section-title h1{
-  color: #fff;;
+.breadcrumb_area .hero-section-title h1 {
+  color: #fff;
 }
 
-.breadcrumb-item{
+.breadcrumb-item {
   color: #c49b60 !important;
 }
 
-.breadcrumb-item a{
+.breadcrumb-item a {
   color: #c49b60;
 }
 
- .breadcrumb-item a:hover{
-  color:#fff !important;
+.breadcrumb-item a:hover {
+  color: #fff !important;
 }
 
-.breadcrumb > li + li:before{
+.breadcrumb > li + li:before {
   color: #c49b60;
 }
 
 /* barra azul om o titulo */
-.bannerProd{
+.bannerProd {
   width: 100%;
   height: 100%;
 }
 
 /*slider*/
-.prouto-detalhe .slider-prod{
+.prouto-detalhe .slider-prod {
   padding: 0px;
   position: relative;
 }
 
-.prouto-detalhe .owl-carousel .owl-nav{
-    position: absolute;
-    width: 100%;
-    top: 50%;
+.prouto-detalhe .owl-carousel .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
 }
 
-.slider-prod .owl-nav button{
+.slider-prod .owl-nav button {
   width: 65px;
   height: 65px;
   background: gray !important;
   opacity: 0.6;
   border: none;
-  padding: 0!important;
+  padding: 0 !important;
   font: inherit;
   display: inline-block;
   border-radius: 50%;
@@ -703,21 +695,21 @@ body * {
   line-height: 65px;
 }
 
-.prouto-detalhe .owl-carousel .owl-nav button.owl-prev{
+.prouto-detalhe .owl-carousel .owl-nav button.owl-prev {
   left: 0px;
 }
 
-.prouto-detalhe .owl-carousel .owl-nav button.owl-next{
+.prouto-detalhe .owl-carousel .owl-nav button.owl-next {
   left: 90%;
 }
 
 /*formulario*/
-.container-form{
+.container-form {
   background: #2d9abf;
   border-radius: 5xp;
 }
 .container-form h3,
-.prouto-detalhe .service_widgets h3{
+.prouto-detalhe .service_widgets h3 {
   color: #fff;
   padding: 35px 0px;
   font-size: 18px;
@@ -725,62 +717,61 @@ body * {
   letter-spacing: 4px;
 }
 
-.container-form .submit{
+.container-form .submit {
   background-color: #22354b;
   margin: 35px 0px 10px 0px;
   border-radius: 35px;
 }
 
-.prouto-detalhe .prod-content h3{
-text-align: left;
-    margin-bottom: 25px;
+.prouto-detalhe .prod-content h3 {
+  text-align: left;
+  margin-bottom: 25px;
 }
 
-.prouto-detalhe .prod-content p{
+.prouto-detalhe .prod-content p {
   color: #969da9;
   text-align: left;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 17px;
 }
-.prouto-detalhe  .service_widgets{
+.prouto-detalhe .service_widgets {
   margin-top: 72px;
-    padding: 30px;
-    background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
-    background-image: -o-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
-    background-image: -moz-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
-    background-image: -webkit-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
-    background-image: -ms-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
-    background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  padding: 30px;
+  background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -o-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -moz-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -webkit-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -ms-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
 }
 
-.prouto-detalhe .service_widgets ul li{
+.prouto-detalhe .service_widgets ul li {
   border-bottom: 2px solid #dae0ea;
 }
 
-.prouto-detalhe .service_widgets ul li a i{
+.prouto-detalhe .service_widgets ul li a i {
   float: left;
   color: #2d9abf;
 }
 
-.prouto-detalhe .service_widgets ul li a{
+.prouto-detalhe .service_widgets ul li a {
   text-align: left;
   color: #22354b;
 }
 
-.prouto-detalhe .service_widgets h3{
+.prouto-detalhe .service_widgets h3 {
   color: #22354b;
   padding: 0px;
 }
-.prouto-detalhe .service_widgets img{
+.prouto-detalhe .service_widgets img {
   width: 100%;
 }
 
-.prouto-detalhe .related{
+.prouto-detalhe .related {
   text-align: left;
-    margin: 0px 0px 15px 20px;
+  margin: 0px 0px 15px 20px;
 }
-
 
 /********************************************/
 /************* Istitucional *****************/
@@ -792,46 +783,45 @@ text-align: left;
   margin-top: 150px;
 }
 
-.institucional .about_area h1{
+.institucional .about_area h1 {
   color: #22354b;
 }
 
-.institucional .about_area p{
+.institucional .about_area p {
   color: #22354b;
 }
 
-.institucional .about_area h4{
-  color: #c49b60
+.institucional .about_area h4 {
+  color: #c49b60;
 }
 
-.institucional .about_details{
+.institucional .about_details {
   padding: 0px 0 115px 0;
 }
 
-.institucional .instituional-icon{
+.institucional .instituional-icon {
   width: 25%;
   margin: 40px 0px 60px 0px;
 }
 
-.institucional .blog_area h4{
+.institucional .blog_area h4 {
   color: #22354b;
 }
-
 
 /********************************************/
 /*********** Produto Listagem ***************/
 /********************************************/
 
-.subCat-title{
+.subCat-title {
   margin: 20px;
   text-align: left;
 }
 
-.produto-listagem .slider_service_area{
+.produto-listagem .slider_service_area {
   background: none;
 }
 
-.produto-listagem .row{
+.produto-listagem .row {
   background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
   background-image: -o-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
   background-image: -moz-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
@@ -840,9 +830,73 @@ text-align: left;
   background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
 }
 
+/********************************************/
+/******** Produto Listagem Categorias********/
+/********************************************/
+.prod-list-categorias .container-fluid:not(:first-child) {
+  background-image: linear-gradient(top #fff 80%, #dfe5ef 20%);
+  background-image: -o-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -moz-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  padding-bottom: 55px;
+}
 
+.prod-list-categorias ul.breadcrumb {
+  display: none;
+  text-align: center;
+  margin-bottom: 85px;
+}
 
+.prod-list-categorias ul.breadcrumb li a {
+  color: #22354b;
+  font-size: 16px;
+}
 
+.prod-list-categorias ul.breadcrumb li a:hover {
+  background-color: #2d9abf;
+  padding: 5px 25px;
+  border-radius: 25px;
+}
+
+.prod-list-categorias img {
+  width: 100%;
+  height: 100%;
+}
+
+.prod-list-categorias .cardList {
+  background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -o-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -moz-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -webkit-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -ms-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  min-height: 300px;
+  padding: 25px;
+}
+
+.prod-list-categorias .cardList h3 {
+  font-size: 37px;
+  margin: 18px 0;
+}
+
+.prod-list-categorias .cardList p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 23px;
+}
+
+.prod-list-categorias .cardList a {
+  background-color: #c49b60;
+  color: #fff;
+  padding: 5px;
+  margin-top: 25px;
+  display: block;
+  width: 142px;
+  text-align: center;
+  border-radius: 30px;
+}
 
 /********************************************/
 /************* media queries ****************/
@@ -873,12 +927,12 @@ text-align: left;
   .main_menu_area nav.navbar.navbar-default .navbar_flex {
     width: 100%;
   }
-  .testimonials_area .hv2_slider_bg img{
+  .testimonials_area .hv2_slider_bg img {
     float: left;
     width: 30% !important;
   }
-  
-  .testimonials_area .hv2_slider_bg .content{
+
+  .testimonials_area .hv2_slider_bg .content {
     float: right;
     width: 60%;
     margin-right: 5%;
@@ -894,6 +948,9 @@ text-align: left;
   }
   .main_menu_area nav.navbar.navbar-default .social_icon_flex {
     width: 250px;
+  }
+  .prod-list-categorias ul.breadcrumb {
+    display: block;
   }
 }
 
@@ -928,7 +985,7 @@ text-align: left;
   .map_details {
     margin-top: 150px;
   }
-  .map_details .hero-section-title{
-      margin-bottom: 35px;
+  .map_details .hero-section-title {
+    margin-bottom: 35px;
   }
 }
