@@ -899,6 +899,40 @@ body * {
 }
 
 /********************************************/
+/***************** Contato ******************/
+/********************************************/
+
+.contato h4{
+  color: #c49b60;
+}
+
+.contato .showcase h4{
+  color: #22354b
+}
+
+.contato .book_online_step_1,
+.contato .book_online_step_box_2 {
+  background-color: #2d9abf;
+}
+
+.contato .book_online_tabs .nav-tabs > li.active > a{
+  background-color: #2d9abf;
+}
+
+.contato .book_online_tabs .nav-tabs > li > a{
+  background-color: #22354b;
+}
+
+.contato .container-form{
+  max-width: 75%;
+  margin: auto;
+}
+
+.contato .container-form h3{
+text-align: center;
+}
+
+/********************************************/
 /************* media queries ****************/
 /********************************************/
 
