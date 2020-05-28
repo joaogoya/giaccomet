@@ -22,6 +22,8 @@
 
 */
 
+
+
 (function ($) {
     "use strict";
 
@@ -46,12 +48,15 @@
     /*** =====================================
      * PreLoader
      * =====================================***/
-    $(window).on('load', function () {
-        $('.preloader').delay('500').fadeOut(2000);
-    });
+
 
 
     $(document).on('ready', function () {
+
+        $( "#toogleRepresentante" ).click(function() {
+            $( "#container-toogle-id" ).toggleClass( "paddinAdjust" );
+          });
+        
 
         /*** =====================================
          * Responsive menu
@@ -292,8 +297,8 @@
         if($("#map").length) {
             initMap('map', 40.712776, -74.005974, 'assets/images/map-marker.png');
         }
-
-
     });
+
+
 
 })(jQuery);

@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body class="prod-list-categorias">
+<body class="prod-list-categorias representantes">
   <!-- Start PreLoader -->
   <!-- <div class="preloader">
         <div class="loader cf">
@@ -143,17 +143,91 @@
   <!--end .breadcrumb_area-->
   <!--End Breadcrumb Section -->
 
-  <section class="section_padding">
+  <section class="section_padding mapContainer">
     <div class="container-fluid">
       <div class="row">
 
         <div class="col-md-6">
-          <div id="regions_div" style="width: 900px; height: 500px;"></div>
+          <div id="regions_div" style="max-width: 100%; max-height: 100%;"></div>
         </div>
 
-      </div>
-    </div>
-    </div><br>
+        <div class="col-md-6">
+
+          <div class="container combo-container">
+                <div class="col-sm-6">
+                  <h4>Rio Grande do Sul</h4>
+                  <h6>
+                    Região Sul
+                  </h6>
+                </div>
+                <div class="col-sm-6 text-right">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Filtrar por Estado <i class="fa fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Paraná</a>
+                      <a class="dropdown-item" href="#">Santa Catarine</a>
+                      <a class="dropdown-item" href="#">Rio Grande do Sul</a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+
+          <div class="container-toogle" id="container-toogle-id">
+            <div class="header-toogle">
+              <div class="city">
+                Caxias do Sul
+              </div>
+              <h3>Nome do representante</h3>
+              <p>
+                <span>Endereço: </span> lorem impsum, 45/23
+              </p>
+              <p> <span>Telefone: </span> 51999999999 <span>E-mail:</span>a@b.com </p>
+            </div><!--header toogle-->
+            <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" id="toogleRepresentante"
+              aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-angle-down"></i></a>
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="card card-body">
+                <div class="container-form">
+                  <h3>ORÇAMETO RÁPIDO</h3>
+                  <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <input type="text" class="form-control" placeholder="Nome">
+                      </div>
+                      <div class="form-group col-md-12">
+                        <input type="email" class="form-control" placeholder="E-mail">
+                      </div>
+                      <div class="form-group col-md-3">
+                        <input type="text" class="form-control" placeholder="DDD">
+                      </div>
+                      <div class="form-group col-md-9">
+                        <input type="tel" class="form-control" placeholder="Telefone">
+                      </div>
+                      <div class="form-group col-md-12">
+                        <textarea class="form-control" rows="3" placeholder="Mensagem"></textarea>
+                      </div>
+                      <div class="form-group col-md-12">
+                        <button type="submit" class="submit btn btn-primary btn-lg btn-block">Enviar</button>
+                      </div>
+                    </div> <!--form row-->
+                    <div class="clear"></div>
+                  </form>
+                </div><!-- container form -->
+
+
+              </div>
+            </div><!--colapse-->
+
+          </div><!--container toogle-->
+
+
+        </div><!--col-6-->
+
+      </div><!--row-->
+    </div><!--container fluid-->
   </section>
 
 
@@ -314,6 +388,7 @@
   <script src="assets/js/waypoint.js"></script>
   <script src="assets/js/jquery.counter.min.js"></script>
   <script src="assets/js/magnific.min.js"></script>
+  <script src="assets/js/custom.js"></script>
 
   <script src="./assets/js/loader.js"></script>
   <script src="./assets/js/jsapi.js"></script>
@@ -321,7 +396,7 @@
   <script src="./assets//js/br-map.js"></script>
 
 
-  <script src="assets/js/custom.js"></script>
+
 </body>
 
 </html>

@@ -843,24 +843,24 @@ body * {
   padding-bottom: 55px;
 }
 
-.prod-list-categorias ul.breadcrumb {
+.prod-list-categorias ul.catMenu {
   display: none;
   text-align: center;
   margin-bottom: 85px;
 }
 
-.prod-list-categorias ul.breadcrumb li a {
+.prod-list-categorias ul.catMenu li a {
   color: #22354b;
   font-size: 16px;
 }
 
-.prod-list-categorias ul.breadcrumb li a:hover {
+.prod-list-categorias ul.catMenu li a:hover {
   background-color: #2d9abf;
   padding: 5px 25px;
   border-radius: 25px;
 }
 
-.prod-list-categorias img {
+.prod-list-categorias img.imgCardList{
   width: 100%;
   height: 100%;
 }
@@ -933,6 +933,156 @@ text-align: center;
 }
 
 /********************************************/
+/************* Representantes ***************/
+/********************************************/
+.representantes section.mapContainer{
+  background-image: linear-gradient(top #fff 80%, #dfe5ef 20%);
+  background-image: -o-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -moz-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -webkit-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: -ms-linear-gradient(top, #fff 24%, #dfe5ef 62%);
+  background-image: linear-gradient(top, #fff 24%, #dfe5ef 62%);
+}
+
+/*toogle*/
+.container-toogle{
+  background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -o-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -moz-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -webkit-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: -ms-linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  background-image: linear-gradient(bottom, #fff 19%, #dfe5ef 100%);
+  min-height: 30px;
+  width: 100%;
+    margin: auto;
+    padding: 15px 20px 70px 20px;
+    
+}
+
+.paddinAdjust{
+  padding-bottom: 20px;
+}
+
+.container-toogle .header-toogle{
+  border-bottom: 1px solid #22354b;
+}
+
+.container-toogle .btn{
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  position: absolute;
+  left: 45%;
+  border-radius: 25px;
+  background: #969da9;
+  border: none;
+  font-size: 17px;
+  bottom: 50px;
+}
+
+.container-toogle .city{
+  background: deepskyblue;
+    display: table;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    padding: 0px 20px;
+    border-radius: 19px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.container-toogle h3{
+  font-size: 18px;
+    margin: 20px 0px;
+}
+
+.container-toogle p {
+  font-size: 14px;
+}
+
+.container-toogle p:last-child {
+  margin-bottom: 23px;
+}
+
+.container-toogle p span{
+  font-weight: bolder;
+}
+
+.container-toogle .container-form{
+  background: none;
+}
+
+.container-toogle .container-form h3{
+  color: #000;
+  text-align: center;
+}
+
+.container-toogle .container-form input, 
+.container-toogle .container-form textarea{
+  border: none;
+  background: #dfe5ef;
+}
+
+.container-toogle .container-form .btn{
+  position: initial;
+  background-color: #22354b;
+}
+
+
+.combo-container{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.combo-container h4{
+  font-size: 26px;
+  color: #22354b;
+}
+
+.combo-container h6{
+  font-size: 18px;
+  font-weight: 300;
+  color: #22354b;
+}
+
+.combo-container #dropdownMenuButton{
+    width: 100%;
+  text-align: left;
+  line-height: 40px;
+}
+
+.combo-container #dropdownMenuButton i{
+    float: right;
+    margin-top: 13px;
+}
+
+.combo-container .dropdown-menu{
+  background:#dfe5ef;
+    border: none;
+    width: 100%;
+}
+
+.combo-container .dropdown-item{
+  display: block;
+    background: none;
+    padding: 2px 10px;
+    color: gray;
+}
+
+.combo-container .dropdown-item:hover{
+  background: whitesmoke;
+}
+
+
+svg g rect{
+  fill: none;
+}
+
+
+
+/********************************************/
 /************* media queries ****************/
 /********************************************/
 
@@ -971,6 +1121,15 @@ text-align: center;
     width: 60%;
     margin-right: 5%;
   }
+
+  .combo-container .dropdown-menu{
+      width: 80%;
+  }
+
+  .container-toogle{
+    width: 800%;
+  }
+  
 }
 
 @media (min-width: 992px) {

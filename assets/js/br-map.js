@@ -125,7 +125,7 @@ function drawRegionsMap() {
   var options = {
     region: "BR",
     resolution: "provinces",
-    datalessRegionColor: "white",
+    datalessRegionColor: "none",
     defaultColor: "#3ba8cd",
     enableRegionInteractivity: true,
   };

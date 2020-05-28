@@ -3004,7 +3004,7 @@
 				}
 
 		.wrapper.style2 {
-			background-color: #f7f7f7;
+			background-color: yellow;
 			color: #444;
 		}
 
@@ -3029,7 +3029,7 @@
 			}
 
 			.wrapper.style2 code {
-				background: #fff;
+				background: yellow;
 				border-color: #ddd;
 			}
 
@@ -3723,7 +3723,7 @@
 /* Footer */
 
 	#footer {
-		background-color: #f7f7f7;
+		background-color: yellow;
 		color: #444;
 		padding: 5em 0 4em 0;
 		position: relative;
@@ -3750,7 +3750,7 @@
 		}
 
 		#footer code {
-			background: #fff;
+			background: yellow;
 			border-color: #ddd;
 		}
 
@@ -3759,7 +3759,7 @@
 		}
 
 		#footer:before {
-			background-color: #ddd;
+			background-color: yellow;
 			content: '';
 			height: 1px;
 			left: 30%;
